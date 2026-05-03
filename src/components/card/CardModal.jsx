@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { cardAPI, commentAPI } from '../../Services/api'
-import { useAuth } from '../../context/AuthContext'
-import { useSocket } from '../../context/SocketContext'
+import { useAuth } from '../../Context/AuthContext'
+import { useSocket } from '../../Context/SocketContext'
 import { format, isPast } from 'date-fns'
 import toast from 'react-hot-toast'
 

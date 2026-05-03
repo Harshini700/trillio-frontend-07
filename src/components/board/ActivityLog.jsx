@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { activityAPI } from '../../Services/api'
 import { formatDistanceToNow } from 'date-fns'
-import { useSocket } from '../../context/SocketContext'
+import { useSocket } from '../../Context/SocketContext'
 
 export default function ActivityLog({ boardId }) {
   const [activities, setActivities] = useState([])

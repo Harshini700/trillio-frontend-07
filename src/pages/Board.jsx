@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { boardAPI, cardAPI } from '../Services/api'
-import { useSocket } from '../context/SocketContext'
+import { useSocket } from '../Context/SocketContext'
 import { format, isPast } from 'date-fns'
 import Navbar          from '../components/layout/Navbar'
 import KanbanBoard     from '../components/board/KanbanBoard'
